@@ -21,9 +21,6 @@ class LanguagePickerView: BGView {
 	@IBOutlet weak var allLanguagesLabel: NSTextField!
 	@IBOutlet weak var recentLanguagesLabel: NSTextField!
 
-	override func draw(_ dirtyRect: NSRect) {
-		super.draw(dirtyRect)
-	}
 
 	override init(frame frameRect: NSRect) {
 		super.init(frame: frameRect)
